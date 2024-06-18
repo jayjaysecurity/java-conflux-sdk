@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Run SOOS SAST Analysis
-        uses: soos-io/soos-sast-github-action@v1 # GET Latest Version from https://github.com/marketplace/actions/soos-sast
+        uses: soos-io/soos-sast-github-action@v1.0.1 # GET Latest Version from https://github.com/marketplace/actions/soos-sast
         with:
           client_id: "z2pl9asnr"
           api_key: "ZjhmYWE1NDgtYTdmYi00N2FlLWEzYjItY2EzMzQ4ZTYwYTU1"
