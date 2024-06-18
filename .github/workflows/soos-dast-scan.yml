@@ -41,6 +41,7 @@ jobs:
           client_id: "z2pl9asnr"
           api_key: "ZjhmYWE1NDgtYTdmYi00N2FlLWEzYjItY2EzMzQ4ZTYwYTU1"
           project_name: "test"
+          target_url: "https://confluxnetwork.org"
           scan_mode: "baseline"
           output_format: "sarif"
       - name: Upload SOOS DAST SARIF Report
